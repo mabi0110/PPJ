@@ -1,0 +1,8 @@
+package cw11;
+
+public class NotEnoughFuelException extends Exception {
+
+    public NotEnoughFuelException(String message) {
+        super(message);
+    }
+}
